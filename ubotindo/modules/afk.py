@@ -82,14 +82,14 @@ def no_longer_afk(update, context):
         firstname = update.effective_user.first_name
         try:
             options = [
-                "{} dih bangsat balik lagi!",
-                "{} hai kampang welback!",
-                "{} pengangguran sok sibuk balik!",
-                "{} wb anak anjeeng!",
-                "{} kembali siap memberantas sange online!",
-                "{} gausa balik lagi gapenting!",
-                "hmm balik paling abis nyari pap tt! {}",
-                "Where is {}?\nIn the chat!",
+                "{} pasti abis dighosting!",
+                "{} hai kang ghosting, welcome back!",
+                "{} jamet tukang ghosting balik!",
+                "{} gausah balik kalo mau ghosting!",
+                "{} kembali siap ghosting orang!",
+                "{} anjeng gausa balik kalo nyakitin!",
+                "hmm pasti {} abis ghosting",
+                "Dimana {}?\nLagi parming!",
             ]
             chosen_option = random.choice(options)
             unafk = update.effective_message.reply_text(
