@@ -98,7 +98,7 @@ def ban(update, context):
         # sticker
         context.bot.sendMessage(
             chat.id,
-            "BANGSAT KAU {} TERBANNED .".format(
+            "ANJENG LU {} TERGHOSTING .".format(
                 mention_html(member.user.id, member.user.first_name)
             ),
             parse_mode=ParseMode.HTML,
@@ -204,7 +204,7 @@ def temp_ban(update, context):
         # context.bot.send_sticker(chat.id, BAN_STICKER)  # banhammer marie
         # sticker
         message.reply_text(
-            "Banned! Karena kamu jelek {}.".format(time_val)
+            "BANNED! KARENA {} KANG GHOSTING.".format(time_val)
         )
         return log
 
