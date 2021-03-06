@@ -66,12 +66,10 @@ PM_START_TEXT = f"""
 ┗┓HAI KAWAN. GUA *{dispatcher.bot.first_name}*┏┛.
 GUA HADIR UNTUK MELENYAPKAN KANG GHOSTING! use /help
 
-Chat[CTH](https://t.me/leoangkasaaa)GUA JIKA ADA PERTANYAAN!
-
 Tambahin gua ke grup lu dan kasih akses admin!
-SIAP MELENYAPKAN KANG GHOSTING☠️:
+SIAP MELENYAPKAN KANG GHOSTING!!!
 
-• Subscribe Channel Gua.         • @manusiarakitann
+• Subscribe Channel Gua.         • @storyangkasa
 • OWNER GANTENG.   •* [ANGKASA](https://t.me/leoangkasaaa)
 
 *Thanks For MyBaginda :* [KOALA](https://t.me/manusiarakitann)
@@ -287,7 +285,7 @@ def start(update, context):
 
         else:
             update.effective_message.reply_photo(
-                "https://telegra.ph/file/9e85cdbdc95197ae0cba7.jpg",
+                "https://ibb.co/QNQ548L",
                 PM_START_TEXT,
                 reply_markup=InlineKeyboardMarkup(buttons),
                 parse_mode=ParseMode.MARKDOWN,
