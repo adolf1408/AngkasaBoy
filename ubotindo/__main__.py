@@ -63,20 +63,20 @@ from ubotindo.modules.helper_funcs.alternate import typing_action
 
 
 PM_START_TEXT = f"""
-Hey KIMAKS! my name is *{dispatcher.bot.first_name}*.
-GUA HADIR UNTUK MELINDUNGI KAUM WANITA DARI COWO SANGE ONLINE? use /help
+┗┓HAI KAWAN. GUA *{dispatcher.bot.first_name}*┏┛.
+GUA HADIR UNTUK MELENYAPKAN KANG GHOSTING! use /help
 
-Join Our [CTH](https://t.me/caritemanhidop) UNTUK REPORT COWO SANGE ONLINE🙂
+Chat[CTH](https://t.me/leoangkasaaa)GUA JIKA ADA PERTANYAAN!
 
-Tambahin gua ke grup elu dan kasih akses admin!
-SIAP MEMBASMI COWO SANGE ☠️:
+Tambahin gua ke grup lu dan kasih akses admin!
+SIAP MELENYAPKAN KANG GHOSTING☠️:
 
-• follow my instagram.         • @manusiarakitann
-• Media Partners.   • CARI TEMAN HIDUP
+• Subscribe Channel Gua.         • @manusiarakitann
+• OWNER GANTENG.   •* [ANGKASA](https://t.me/leoangkasaaa)
 
-*Managed With ❤️ By :* [KOALA](https://t.me/manusiarakitann)
+*Thanks For MyBaginda :* [KOALA](https://t.me/manusiarakitann)
 
-Wanna Add me to your Group? Just click the button below!
+Mau tambahkan gua ke grup? Klik LINK dibawah!
 """
 
 buttons = [
@@ -85,7 +85,7 @@ buttons = [
             text="Add to Group 👥", url="t.me/userbotindobot?startgroup=true"
         ),
         InlineKeyboardButton(
-            text="Gban Logs 🚫", url="https://t.me/megazordlogs"
+            text="Owner Cakeup😶", url="https://t.me/leoangkasaaa"
         ),
     ]
 ]
@@ -98,7 +98,7 @@ buttons += [
             url=f"t.me/{dispatcher.bot.username}?start=help",
         ),
         InlineKeyboardButton(
-            text="Support Group 🐨", url="https://t.me/caritemanhidop"
+            text="Support Group 👥", url="https://t.me/caritemanhidop"
         ),
     ]
 ]
@@ -107,10 +107,10 @@ buttons += [
     [
         InlineKeyboardButton(
             text="MY INSTAGRAM 🌐",
-            url="https://instagram.com/manusiarakitann?igshid=1f6xnjrgraj20"
+            url="https://instagram.com/whyal_"
         ),
         InlineKeyboardButton(
-            text="Support Channel CTH 🐨", url="https://t.me/joinchat/V1ngSuLIShi08cq_"
+            text="Support Channel", url="https://t.me/storyangkasa"
         ),
     ]
 ]
@@ -287,7 +287,7 @@ def start(update, context):
 
         else:
             update.effective_message.reply_photo(
-                "https://i.ibb.co/9G8F7p7/images-1.jpg",
+                "https://telegra.ph/file/9e85cdbdc95197ae0cba7.jpg",
                 PM_START_TEXT,
                 reply_markup=InlineKeyboardMarkup(buttons),
                 parse_mode=ParseMode.MARKDOWN,
